@@ -1,4 +1,16 @@
 Dipole
 ======
 
-Compute E and B of an Hertz Dipole (3 functions: full fields, far fields only, near fields only)
+Python module to compute E and B fields of an Hertz Dipole.
+
+
+
+
+##Requirements
+* Python 2.x
+* Numpy
+* Matplotlib (for the main() sample program only)
+
+
+
+
