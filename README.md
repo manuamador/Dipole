@@ -12,7 +12,7 @@ The full fields are derived from the following formulas:
 ##Requirements
 * Python 2.x
 * Numpy
-* Matplotlib (for the main() sample program only)
+* Matplotlib (for the main() sample program of `dipole.py`and for `RadiationPattern.py`)
 
 ##Applications
 ###Dipole radiation in time-domain: main() of `dipole.py`
@@ -21,7 +21,14 @@ The main() function returns an image sequence shows the time domain radiation of
 
 
 ###Radiation pattern of a random set of dipoles: `RadiationPattern.py` 
-In this sample program, a random object is generated (a random set of dipoles).
+In this sample program, a random object is generated (a random set of dipoles). The radiation pattern for every frequency is computed and rendered.
+
+Output samples:
+![](./rp_5.png)
+![](./rp_13.png)
+![](./rp_18.png)
+
+
 
 
 
