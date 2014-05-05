@@ -12,11 +12,11 @@ The full fields are derived from the following formulas:
 ##Requirements
 * Python 2.x
 * Numpy
-* Matplotlib (for the main() sample program of `dipole.py`and for `RadiationPattern.py`)
+* Matplotlib (for the `main()` sample program of `dipole.py`and for `RadiationPattern.py`)
 
 ##Applications
-###Dipole radiation in time-domain: main() of `dipole.py`
-The main() function returns an image sequence shows the time domain radiation of a dipole (total power radiated)
+###Dipole radiation in time-domain: `main()` of `dipole.py`
+The `main()` function of `dipole.py` returns an image sequence shows the time domain radiation of a dipole (total power radiated)
 ![](./img/img_0.png)
 
 
