@@ -21,7 +21,7 @@ The `main()` function of `dipole.py` returns an image sequence shows the time do
 
 
 ###Radiation pattern of a random set of dipoles: `RadiationPattern.py` 
-In this sample program, a random object is generated (a random set of dipoles). The radiation pattern for every frequency is computed and rendered.
+In this sample program, a random object is generated (a random set of dipoles). The radiation pattern is computed and rendered for every frequency.
 
 Output samples:
 ![](./img/rp_5.png)
