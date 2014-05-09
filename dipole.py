@@ -207,7 +207,7 @@ if __name__ == "__main__":
         r=array([x[i],y,z[j]])
         E,B=Hertz_dipole (r, p, R, phases_dip, freq, t[k], epsr=1.)
         S=real(E)**2#0.5*numpy.cross(E.T,conjugate(B.T))
-        P[i,j]=sqrt(sum(S))
+        P[i,j]=sum(S)
     print('%2.1f/100'%((k+1)/nt*100))
     #Radiation diagram
     pcolor(x,z,P[:,:].T,cmap='hot')
