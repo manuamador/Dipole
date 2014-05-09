@@ -1,7 +1,7 @@
 Dipole
 ======
 
-`dipole.py` is a Python module to compute E and B fields of an Hertz Dipole.
+`dipole.py` is a Python module that computes E and B fields of an Hertz Dipole.
 
 The full fields are derived from the following formulas:
 ![](./img/E.png )
@@ -16,20 +16,14 @@ The full fields are derived from the following formulas:
 
 ##Applications
 ###Dipole radiation in time-domain: `main()` of `dipole.py`
-The `main()` function of `dipole.py` returns an image sequence shows the time domain radiation of a dipole (total power radiated)
+The `main()` function of `dipole.py` returns an image sequence that shows the time domain radiation of a dipole (total power radiated)
 ![](./img/img_0.png)
 
 
-###Radiation pattern of a random set of dipoles: `RadiationPattern.py` 
+###Radiation pattern of a random set of dipoles: `RadiationPattern.py`
 In this sample program, a random object is generated (a random set of dipoles). The radiation pattern is computed and rendered for every frequency.
 
 Output samples:
 ![](./img/rp_5.png)
 ![](./img/rp_13.png)
 ![](./img/rp_18.png)
-
-
-
-
-
-
