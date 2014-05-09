@@ -187,7 +187,7 @@ if __name__ == "__main__":
 
   freq=numpy.array([1000e6])
   #dipole moment
-  p=numpy.array([0,0,1e-7])
+  p=numpy.array([0,0,1e-13])
   R=numpy.array([0,0,0])
   #dipole phases
   phases_dip=0
@@ -212,7 +212,7 @@ if __name__ == "__main__":
     #Radiation diagram
     pcolor(x,z,P[:,:].T,cmap='hot')
     fname = 'img_%s' %(k)
-    clim(0,5000000)
+    clim(0,2)
     axis('scaled')
     xlim(-xmax,xmax)
     ylim(-zmax,zmax)
@@ -222,4 +222,3 @@ if __name__ == "__main__":
     print 'Saving frame', fname
     fig.savefig(fname+'.png',bbox='tight')
     clf()
-  close()
