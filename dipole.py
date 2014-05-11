@@ -184,10 +184,13 @@ if __name__ == "__main__":
   z=numpy.linspace(-zmax,zmax,nz)
 
   #dipole
-
   freq=numpy.array([1000e6])
   #dipole moment
-  p=numpy.array([0,0,1e-13])
+  #total time averaged radiated power P= 1 W dipole moment => |p|=sqrt(12pi*c*P/muO/w**4)
+  Pow=1
+  norm_p=sqrt(12*pi*c*Pow/(mu0*(2*pi*freq)**4))
+  #dipole moment
+  p=numpy.array([0,0,norm_p])
   R=numpy.array([0,0,0])
   #dipole phases
   phases_dip=0
@@ -212,7 +215,7 @@ if __name__ == "__main__":
     #Radiation diagram
     pcolor(x,z,P[:,:].T,cmap='hot')
     fname = 'img_%s' %(k)
-    clim(0,2)
+    clim(0,1000)
     axis('scaled')
     xlim(-xmax,xmax)
     ylim(-zmax,zmax)
