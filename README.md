@@ -7,7 +7,7 @@ The full fields are derived from the following formulas:
 ![](./img/E.png )
 ![](./img/B.png)
 
-`RadiationPattern.py` is a sample program that shows how `dipole.py`can be used to compute the radiation pattern (in frequency domain) of a random set od dipoles on a sphere (non intentional arbitrary emitter).
+`RadiationPattern.py` is a sample program that shows how `dipole.py`can be used to compute the radiation pattern (in frequency domain) of a random set of dipoles on a sphere (non intentional arbitrary emitter).
 
 ##Requirements
 * Python 2.x
